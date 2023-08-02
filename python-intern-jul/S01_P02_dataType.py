@@ -3,6 +3,7 @@
 # numberic data
 # int , float, complex
 
+# CEC_@_First_
 x = int(2.4)
 print(type(x))
 
