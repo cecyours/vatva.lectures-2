@@ -5,7 +5,7 @@ file = open("./S05_P01.json","w")
 subject = ["python","C++","java","html","php"]
 
 
-for i in range(1000):
+for i in range(e):
     student_roll_no = random.randint(1,100)
     student_name =names.get_full_name()
     sub = random.choice(subject)

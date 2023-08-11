@@ -1,0 +1,1210 @@
+{
+      "1": {
+            "question": "Question",
+            "ans": "Answer",
+            "optionA": "Option1",
+            "optionB": "Option2",
+            "optionC": "Option3",
+            "optionD": "Option4"
+      },
+      "2": {
+            "question": "The brain of any computer system is",
+            "ans": "c",
+            "optionA": "ALU",
+            "optionB": "Memory",
+            "optionC": "CPU",
+            "optionD": "Control Unit"
+      },
+      "3": {
+            "question": "What difference does the 5th generation computer have from other generation computers?",
+            "ans": "a",
+            "optionA": "Technological advancement",
+            "optionB": "Scientific code",
+            "optionC": "Object Oriented Programming",
+            "optionD": "All of the above"
+      },
+      "4": {
+            "question": "Which of the following computer language is used for artificial intelligence?",
+            "ans": "b",
+            "optionA": "FORTRAN",
+            "optionB": "PROLOG",
+            "optionC": "C",
+            "optionD": "COBOL"
+      },
+      "5": {
+            "question": "The tracks on a disk which can be accessed without repositioning the R/W heads is",
+            "ans": "b",
+            "optionA": "Surface",
+            "optionB": "Cylinder",
+            "optionC": "Cluster",
+            "optionD": "All of the above"
+      },
+      "6": {
+            "question": "Which of the following is the 1's complement of 10?",
+            "ans": "a",
+            "optionA": 1,
+            "optionB": 110,
+            "optionC": 11,
+            "optionD": 10
+      },
+      "7": {
+            "question": "Which part interprets program instructions and initiate control operations.",
+            "ans": "D",
+            "optionA": "Input",
+            "optionB": "Storage Unit",
+            "optionC": "Logical Unit",
+            "optionD": "Control Unit"
+      },
+      "8": {
+            "question": "The binary system uses powers of",
+            "ans": "A",
+            "optionA": 2,
+            "optionB": 10,
+            "optionC": 8,
+            "optionD": 16
+      },
+      "9": {
+            "question": "In how many generations a computer can be classified?",
+            "ans": "c",
+            "optionA": 3,
+            "optionB": 4,
+            "optionC": 5,
+            "optionD": 6
+      },
+      "10": {
+            "question": "Microprocessors as switching devices are for which generation computers",
+            "ans": "D",
+            "optionA": "First Generation",
+            "optionB": "Second Generation",
+            "optionC": "Third Generation",
+            "optionD": "Fourth Generation"
+      },
+      "11": {
+            "question": "The two kinds of main memory are:",
+            "ans": "A",
+            "optionA": "Primary and secondary",
+            "optionB": "Random and sequential",
+            "optionC": "ROM and RAM",
+            "optionD": "All of above"
+      },
+      "12": {
+            "question": "To produce high quality graphics (hardcopy) in color, you would want to use a/n",
+            "ans": "b",
+            "optionA": "RGB monitor",
+            "optionB": "Plotter",
+            "optionC": "Ink-jet printer",
+            "optionD": "Laser printer"
+      },
+      "13": {
+            "question": "A high quality CAD system uses the following for printing drawing and graphs",
+            "ans": "b",
+            "optionA": "Dot matrix printer",
+            "optionB": "Digital plotter",
+            "optionC": "Line printer",
+            "optionD": "\u00a0 All of the above"
+      },
+      "14": {
+            "question": "Which of the following produces the best quality graphics reproduction?",
+            "ans": "c",
+            "optionA": "Laser printer",
+            "optionB": "Ink jet printer",
+            "optionC": "Plotter",
+            "optionD": "Dot matrix printer"
+      },
+      "15": {
+            "question": "Which one is the largest space?",
+            "ans": "C",
+            "optionA": "Kilo Byte",
+            "optionB": "Giga Byte ",
+            "optionC": "Tera Byte",
+            "optionD": "Bit"
+      },
+      "16": {
+            "question": "Which printer is very commonly used for desktop publishing?",
+            "ans": "A",
+            "optionA": "Laser printer",
+            "optionB": "InkJet Printer",
+            "optionC": "Dot matrix Printer",
+            "optionD": "None"
+      },
+      "17": {
+            "question": "ALU is",
+            "ans": "a",
+            "optionA": "Arithmetic Logic Unit",
+            "optionB": "Array Logic Unit",
+            "optionC": "Application Logic Unit",
+            "optionD": "None of above"
+      },
+      "18": {
+            "question": "When numbers are typed inside a cell, the default alignment is:",
+            "ans": "C",
+            "optionA": "Left-aligned",
+            "optionB": "Center-aligned",
+            "optionC": "Right-aligned",
+            "optionD": "Justified"
+      },
+      "19": {
+            "question": "Cell address A$4 in a formula means it is a",
+            "ans": "A",
+            "optionA": "Relative cell reference",
+            "optionB": "Absolute cell reference",
+            "optionC": "Mixed cell reference",
+            "optionD": "All of the above"
+      },
+      "20": {
+            "question": "When you create a chart on a separate sheet in the same workbook it is called a",
+            "ans": "A",
+            "optionA": "Chart sheet",
+            "optionB": "Embedded chart",
+            "optionC": "View sheet",
+            "optionD": "View chart"
+      },
+      "21": {
+            "question": "In PowerPoint, slide sorter command is found under which Tab?",
+            "ans": "C",
+            "optionA": "Slide Show ",
+            "optionB": "Review",
+            "optionC": "View",
+            "optionD": "None"
+      },
+      "22": {
+            "question": "The primary goal for your slide design should be _____.",
+            "ans": "A",
+            "optionA": "To attract the eyes of your audience",
+            "optionB": "To coordinate with your company logo and color scheme",
+            "optionC": "To make the information easy to read",
+            "optionD": "To make the slides interesting and even exciting"
+      },
+      "23": {
+            "question": "The first network that planted the seeds of Internet was:",
+            "ans": "A",
+            "optionA": "ARPANET",
+            "optionB": "NSFnet",
+            "optionC": "Vnet",
+            "optionD": "Inet"
+      },
+      "24": {
+            "question": "GIGO stands for _____.",
+            "ans": "A",
+            "optionA": "Garbage Input, Garbage Outpu",
+            "optionB": "Gigabytes in, Gigabytes out",
+            "optionC": "Garbage In, Garbage Out",
+            "optionD": "None of the above"
+      },
+      "25": {
+            "question": "When a computer prints a report, this output is called_____.",
+            "ans": "A",
+            "optionA": "Hard Copy",
+            "optionB": "Soft Copy",
+            "optionC": "Com",
+            "optionD": "None of the above"
+      },
+      "26": {
+            "question": "A Word processor is:",
+            "ans": "B",
+            "optionA": "A program which processes the word, e.g. giving frequency of words, sorting of words etc",
+            "optionB": "A program which provides the facility for creating, viewing editing and manipulating text before printing",
+            "optionC": "CPU of microcomputer",
+            "optionD": "None of these"
+      },
+      "27": {
+            "question": "E-mail is",
+            "ans": "B",
+            "optionA": "Mail concerning electronics devices",
+            "optionB": "Transaction of letters, messages and memos over a communications network",
+            "optionC": "Transaction of messages within a computer",
+            "optionD": "None of these"
+      },
+      "28": {
+            "question": "When you activate the Spelling and Grammar checker,",
+            "ans": "C",
+            "optionA": "It displays the misspelled words in a dialog box",
+            "optionB": "It highlights the misspelled words in the document",
+            "optionC": "It allows you to either correct the misspelled word manually",
+            "optionD": "All of the above"
+      },
+      "29": {
+            "question": "In Word Drop caps applied to",
+            "ans": "C",
+            "optionA": "Characters",
+            "optionB": "Sentences",
+            "optionC": "Words",
+            "optionD": "None of the above"
+      },
+      "30": {
+            "question": "Using Borders in Excel you",
+            "ans": "C",
+            "optionA": "Can add lines above, below or to either side of a cell",
+            "optionB": "Can add a single line or multiple lines, along one side of a cell or around it",
+            "optionC": "Both a and b above are correct",
+            "optionD": "None of the above"
+      },
+      "31": {
+            "question": "After a table has been created, which of the following operations cannot be performed?",
+            "ans": "D",
+            "optionA": "Insert rows in a table ",
+            "optionB": "Delete and insert columns",
+            "optionC": "Split the table into two tables",
+            "optionD": "None of the above"
+      },
+      "32": {
+            "question": "In the print dialog box of Word, you can select",
+            "ans": "D",
+            "optionA": "All page in a range",
+            "optionB": "Odd pages",
+            "optionC": "Even pages",
+            "optionD": "Any of the above"
+      },
+      "33": {
+            "question": "In Word, print preview command is found under which tab?",
+            "ans": "A",
+            "optionA": "Office Button",
+            "optionB": "Home",
+            "optionC": "View",
+            "optionD": "Page layout"
+      },
+      "34": {
+            "question": "The purpose of AutoSum in Excel is to",
+            "ans": "D",
+            "optionA": "Locate and total the rows or columns in a range nearest to the current cell ",
+            "optionB": "Total any range that you select",
+            "optionC": "Add grand totals to a range containing other totals",
+            "optionD": "All of the above"
+      },
+      "35": {
+            "question": "Which one of the following can be entered as a number in a cell?",
+            "ans": "D",
+            "optionA": 1300,
+            "optionB": 5000,
+            "optionC": 110,
+            "optionD": "All of the above"
+      },
+      "36": {
+            "question": "A page break is used to do what?",
+            "ans": "B",
+            "optionA": "Create a new page at the insertion point",
+            "optionB": "Create a new page at the bottom of the document",
+            "optionC": "Create a new page that cannot be deleted",
+            "optionD": "Create a blank page at the top of the document"
+      },
+      "37": {
+            "question": "A Pixel is _____________________.",
+            "ans": "C",
+            "optionA": "A computer program that draws pictur",
+            "optionB": "A picture stored in secondary memory",
+            "optionC": "The smallest resolvable part of a picture",
+            "optionD": "None of these"
+      },
+      "38": {
+            "question": "A template stores",
+            "ans": "D",
+            "optionA": "Styles, macros",
+            "optionB": "Auto Text entires, Customized word command Settings",
+            "optionC": "Graphics, text",
+            "optionD": "All of the above"
+      },
+      "39": {
+            "question": "In addition to communicating with I/O, the processor must communicate with the_____________ unit.",
+            "ans": "A",
+            "optionA": "Control",
+            "optionB": "Memory",
+            "optionC": "Ram",
+            "optionD": "Processer"
+      },
+      "40": {
+            "question": "MS-EXCEL can be used to automate",
+            "ans": "D",
+            "optionA": "Financial statements, Business forecasting",
+            "optionB": "Transaction registers, inventory control",
+            "optionC": "Accounts receivable, accounts payable",
+            "optionD": "Any of the above"
+      },
+      "41": {
+            "question": "The language that the computer can understand and execute is called",
+            "ans": "A",
+            "optionA": "Machine Language.",
+            "optionB": "Application Software.",
+            "optionC": "System Program.",
+            "optionD": "Assembly language."
+      },
+      "42": {
+            "question": "Which of the following is not available on the Ruler of MS Word screen?",
+            "ans": "A",
+            "optionA": "Tab stop box",
+            "optionB": "Left Indent",
+            "optionC": "Right Indent",
+            "optionD": "Center Indent"
+      },
+      "43": {
+            "question": "Pressing F8 key for three times selects",
+            "ans": "B",
+            "optionA": "A word",
+            "optionB": "A sentence",
+            "optionC": "A paragraph",
+            "optionD": "Entire document"
+      },
+      "44": {
+            "question": "What is the smallest and largest font size available?",
+            "ans": "A",
+            "optionA": "8 and 72",
+            "optionB": "8 and 64",
+            "optionC": "12 and 72",
+            "optionD": "None of above"
+      },
+      "45": {
+            "question": "Thesaurus tool in MS Word is used for",
+            "ans": "C",
+            "optionA": "Spelling suggestions",
+            "optionB": "Grammar options",
+            "optionC": "Synonyms and Antonyms words",
+            "optionD": "All of above"
+      },
+      "46": {
+            "question": "Which function calculates your monthly mortage payment?",
+            "ans": "D",
+            "optionA": "PMT (payments)",
+            "optionB": "NPER (number of periods)",
+            "optionC": "PV (present value)",
+            "optionD": "All of above"
+      },
+      "47": {
+            "question": "Which of the following describes how to select all the cells in a single column?",
+            "ans": "C",
+            "optionA": "Right click on column and select Pick from list",
+            "optionB": "Use data \u2013 text to columns menu item",
+            "optionC": "Left click on the gray column title button",
+            "optionD": "Pressing Ctrl + A on the keyboard"
+      },
+      "48": {
+            "question": "The ability to combine name and addresses with a standard document is called _________",
+            "ans": "C",
+            "optionA": "Document formatting",
+            "optionB": "Database management",
+            "optionC": "Mail merge",
+            "optionD": "Form letters"
+      },
+      "49": {
+            "question": "Which of the following displays the contents of the active cell?",
+            "ans": "D",
+            "optionA": "Active cell",
+            "optionB": "Formula bar",
+            "optionC": "Menu bar",
+            "optionD": "Name box"
+      },
+      "50": {
+            "question": "To move to the previous worksheet, press",
+            "ans": "B",
+            "optionA": "Alt + PgUp",
+            "optionB": "Ctrl + PgUp",
+            "optionC": "Ctrl + PgDn",
+            "optionD": "Shift + Tab"
+      },
+      "51": {
+            "question": "The program is known as _________ which interacts with the inner part of called kernel.",
+            "ans": "A",
+            "optionA": "Compiler",
+            "optionB": "Device Driver",
+            "optionC": "Protocol",
+            "optionD": "Shell"
+      },
+      "52": {
+            "question": "Bold,italic,underline are the part of\u2026\u2026\u2026..toolbar",
+            "ans": "A",
+            "optionA": "Formatting",
+            "optionB": "Standard",
+            "optionC": "Drawing ",
+            "optionD": "Central"
+      },
+      "53": {
+            "question": "URL stands for",
+            "ans": "A",
+            "optionA": "Uniform resource locator",
+            "optionB": "Universal resource locator",
+            "optionC": "United resource locator",
+            "optionD": "None of above"
+      },
+      "54": {
+            "question": "The websites allows usuers to search the data on keywords",
+            "ans": "B",
+            "optionA": "Web  browser",
+            "optionB": "Search  engine",
+            "optionC": "Net engine",
+            "optionD": "None"
+      },
+      "55": {
+            "question": "Which of the following is not the audio madia file",
+            "ans": "D",
+            "optionA": "MP3",
+            "optionB": "WAV",
+            "optionC": "DAT",
+            "optionD": "PDF"
+      },
+      "56": {
+            "question": "Excel Is _______________ ",
+            "ans": "A",
+            "optionA": "Spread Sheet",
+            "optionB": "Word Processer",
+            "optionC": "Calucation",
+            "optionD": "None"
+      },
+      "57": {
+            "question": "Use of Powerpoint ",
+            "ans": "B",
+            "optionA": "Animation",
+            "optionB": "Presention ",
+            "optionC": "Slide",
+            "optionD": "None of Above"
+      },
+      "58": {
+            "question": "The default file Name in MS-Excel File is",
+            "ans": "C",
+            "optionA": "Book",
+            "optionB": "WorkBook",
+            "optionC": "Book1",
+            "optionD": "None"
+      },
+      "59": {
+            "question": "Using formet cell you can not set ",
+            "ans": "C",
+            "optionA": "Aligment ",
+            "optionB": "Border ",
+            "optionC": "Margin ",
+            "optionD": "Number "
+      },
+      "60": {
+            "question": "The Address of last cell in worksheet is ",
+            "ans": "A",
+            "optionA": "XFD1048576",
+            "optionB": "65535IV",
+            "optionC": "IV65536",
+            "optionD": "IV65535"
+      },
+      "61": {
+            "question": "Output of IF Condition is ",
+            "ans": "C",
+            "optionA": "True ",
+            "optionB": "False ",
+            "optionC": "True Or False ",
+            "optionD": "True & False"
+      },
+      "62": {
+            "question": "In MS Excel rows are labeled as ",
+            "ans": "A",
+            "optionA": "1;2;3;4\u2026..",
+            "optionB": "I,II,III,IV\u2026\u2026",
+            "optionC": "A  ,  B .  C,\u2026\u2026.",
+            "optionD": "a.b.c.d\u2026\u2026."
+      },
+      "63": {
+            "question": "What is the maximum length of sheet name in MS Excel",
+            "ans": "D",
+            "optionA": 8,
+            "optionB": 256,
+            "optionC": 20,
+            "optionD": 31
+      },
+      "64": {
+            "question": "You can identify the selected cell in the\u2026\u2026\u2026\u2026.box",
+            "ans": "A",
+            "optionA": "Name ",
+            "optionB": "Status ",
+            "optionC": "Menu ",
+            "optionD": "Tool "
+      },
+      "65": {
+            "question": "A bar that displays the content and formula in the activa cell is called as",
+            "ans": "A",
+            "optionA": "Formulabar  ",
+            "optionB": "Status ",
+            "optionC": "Menu ",
+            "optionD": "Tool "
+      },
+      "66": {
+            "question": "The default row height in MS Excel is ",
+            "ans": "D",
+            "optionA": 2.5,
+            "optionB": 10,
+            "optionC": 10.75,
+            "optionD": 12.75
+      },
+      "67": {
+            "question": "The functionTODAY( )of MS Excel enters the",
+            "ans": "A",
+            "optionA": "System time in cell",
+            "optionB": "Sestem data series",
+            "optionC": " two data series ",
+            "optionD": "None of the above"
+      },
+      "68": {
+            "question": "The function MAX (56,65,65,56) will show the output in Excel as ",
+            "ans": "B",
+            "optionA": 56,
+            "optionB": 65,
+            "optionC": "65,65",
+            "optionD": "None"
+      },
+      "69": {
+            "question": "In which Address method the address use in formula is not change when we copy or move formula",
+            "ans": "A",
+            "optionA": "Absolute",
+            "optionB": "Relative",
+            "optionC": "Both A and B",
+            "optionD": "None of the above"
+      },
+      "70": {
+            "question": "To count the number of cells having data the function used is ",
+            "ans": "A",
+            "optionA": "Count ( )",
+            "optionB": "Counta ( )",
+            "optionC": "Counts ( )",
+            "optionD": "None "
+      },
+      "71": {
+            "question": "Which keybord shortcut let you modify the cell contest",
+            "ans": "C",
+            "optionA": "Ctrl ",
+            "optionB": "shift ",
+            "optionC": "F2",
+            "optionD": "F7"
+      },
+      "72": {
+            "question": "To save the current workbook with different names command is ",
+            "ans": "b",
+            "optionA": "Save",
+            "optionB": "Save As",
+            "optionC": "Copy",
+            "optionD": "Rename"
+      },
+      "73": {
+            "question": "All the formulas must begin with______character, ",
+            "ans": "B",
+            "optionA": "+",
+            "optionB": "=",
+            "optionC": "*",
+            "optionD": "borth A and B"
+      },
+      "74": {
+            "question": "In word select all data",
+            "ans": "A",
+            "optionA": "Ctrl + A",
+            "optionB": "Ctrl + S",
+            "optionC": "Ctrl + L",
+            "optionD": "None"
+      },
+      "75": {
+            "question": "To insert a new worksheet ;press---------------- .",
+            "ans": "B",
+            "optionA": "Shift+F10 ",
+            "optionB": "Shift +F11",
+            "optionC": "Shift +F12",
+            "optionD": "Shift+F5"
+      },
+      "76": {
+            "question": "In Excel, a-------------------is a file in which you work and store data. ",
+            "ans": "A",
+            "optionA": "Workbook ",
+            "optionB": "Worksheet ",
+            "optionC": "Workspace ",
+            "optionD": "None of the above "
+      },
+      "77": {
+            "question": "Which of the following can be prepared in MS-Excel ?",
+            "ans": "A",
+            "optionA": "Annual Report ",
+            "optionB": "Bio-Data ",
+            "optionC": "Letter ",
+            "optionD": "Presentation"
+      },
+      "78": {
+            "question": "Use of PMT() Function in Excel",
+            "ans": "A",
+            "optionA": "EMI",
+            "optionB": "Principal Amount",
+            "optionC": "Intrest",
+            "optionD": "None"
+      },
+      "79": {
+            "question": "Which function use for find length in excel?",
+            "ans": "A",
+            "optionA": "Len",
+            "optionB": "Lan",
+            "optionC": "count",
+            "optionD": "None"
+      },
+      "80": {
+            "question": "Which function use for find monthly intrest in excel?",
+            "ans": "A",
+            "optionA": "IPMT",
+            "optionB": "PMT",
+            "optionC": "PPMT",
+            "optionD": "None"
+      },
+      "81": {
+            "question": "Which function use for find monthly principal amount in EMI?",
+            "ans": "A",
+            "optionA": "PPMT",
+            "optionB": "IPMT",
+            "optionC": "PMT",
+            "optionD": "None"
+      },
+      "82": {
+            "question": "Which commnad use for find out target ?",
+            "ans": "A",
+            "optionA": "Goal Seek",
+            "optionB": "Data Validation",
+            "optionC": "Consolidate",
+            "optionD": "None"
+      },
+      "83": {
+            "question": "Set data in Ascending   or Descending order ",
+            "ans": "A",
+            "optionA": "Sort & Filter",
+            "optionB": "Fill",
+            "optionC": "Filter",
+            "optionD": "None"
+      },
+      "84": {
+            "question": "Hard Disk Capacity measurment in",
+            "ans": "A",
+            "optionA": "GB",
+            "optionB": "TB",
+            "optionC": "KB",
+            "optionD": "A & B"
+      },
+      "85": {
+            "question": "RAM capacity measurment in",
+            "ans": "A",
+            "optionA": "GB",
+            "optionB": "TB",
+            "optionC": "KB",
+            "optionD": "None"
+      },
+      "86": {
+            "question": "____________Gained notoriety as a microblogging site that just included text posts of up to 140 characters",
+            "ans": "A",
+            "optionA": "Twitter",
+            "optionB": "Facebook",
+            "optionC": "LinkedIn",
+            "optionD": "Instagram"
+      },
+      "87": {
+            "question": "Which command is used to close the window of Excel?",
+            "ans": "A",
+            "optionA": "Alt + F4",
+            "optionB": "F4",
+            "optionC": "Ctrl +F4",
+            "optionD": "None"
+      },
+      "88": {
+            "question": "Which functionin Excel tells how many numeric entries are there ?",
+            "ans": "A",
+            "optionA": "Count ( )",
+            "optionB": "Checknum()",
+            "optionC": "Sum()",
+            "optionD": "None"
+      },
+      "89": {
+            "question": "Which one is not a Function in MS Excel ?",
+            "ans": "A",
+            "optionA": "Sum",
+            "optionB": "Max",
+            "optionC": "Avg",
+            "optionD": "Min"
+      },
+      "90": {
+            "question": "What type of chart will you use to compare performance of two employees in the year 2016 ?",
+            "ans": "A",
+            "optionA": "Line Chart",
+            "optionB": "Colume Chart",
+            "optionC": "Pie Chart",
+            "optionD": "Dot Chart"
+      },
+      "91": {
+            "question": "In Excel, which one denoted a range from B1 through E5",
+            "ans": "A",
+            "optionA": "B1:E5",
+            "optionB": "B1-E5",
+            "optionC": "B1_E5",
+            "optionD": "None"
+      },
+      "92": {
+            "question": "Pressing F8 Key for three times selected",
+            "ans": "A",
+            "optionA": "Line",
+            "optionB": "Word",
+            "optionC": "Paragraph",
+            "optionD": "None"
+      },
+      "93": {
+            "question": "Ctrl + Z",
+            "ans": "A",
+            "optionA": "Undo the last action",
+            "optionB": "Redo the last action",
+            "optionC": "Add the new page",
+            "optionD": "Paste the contents from clipboard"
+      },
+      "94": {
+            "question": "What does CTRL+ = key effect?",
+            "ans": "A",
+            "optionA": "Subscript",
+            "optionB": "Superscript",
+            "optionC": "All Caps",
+            "optionD": "Shadow"
+      },
+      "95": {
+            "question": "What is the default font used in MS Word 2007 document?",
+            "ans": "A",
+            "optionA": "Calibri",
+            "optionB": "Times New Roman",
+            "optionC": "Arial",
+            "optionD": "None"
+      },
+      "96": {
+            "question": "Ctrl + A",
+            "ans": "A",
+            "optionA": "Select All",
+            "optionB": "Align Right",
+            "optionC": "Change Font",
+            "optionD": "Save Document"
+      },
+      "97": {
+            "question": "Which would you choose to save a document with a new name?",
+            "ans": "B",
+            "optionA": "Press CTRL + S",
+            "optionB": "Save As",
+            "optionC": "Save",
+            "optionD": "None"
+      },
+      "98": {
+            "question": "The ability to combine name and addresses with a standard document is called",
+            "ans": "B",
+            "optionA": "Document Formating",
+            "optionB": "Mail merge",
+            "optionC": "Form letters",
+            "optionD": "Database management"
+      },
+      "99": {
+            "question": "\" CTRL + Home \" is used to",
+            "ans": "B",
+            "optionA": "Moves the cursor ot the beginning of line",
+            "optionB": "Moved the cursor to the beginning of document",
+            "optionC": "Moves the cursor ot the beginning of Paragaph",
+            "optionD": "All of the above"
+      },
+      "100": {
+            "question": "\" CTRL + End \" is used to",
+            "ans": "B",
+            "optionA": "Moves the cursor ot the end of line",
+            "optionB": "Moved the cursor to the end of document",
+            "optionC": "Moves the cursor ot the end of Paragaph",
+            "optionD": "All of the above"
+      },
+      "101": {
+            "question": "Which of the following is not a font style?",
+            "ans": "B",
+            "optionA": "Bold",
+            "optionB": "Superscript",
+            "optionC": "Italic",
+            "optionD": "Regular"
+      },
+      "102": {
+            "question": "A Web sites front page /main page is called",
+            "ans": "c",
+            "optionA": "Browser Page",
+            "optionB": "Search Page",
+            "optionC": "Home Page",
+            "optionD": "Bookmark"
+      },
+      "103": {
+            "question": "What is the full form of WWW in web address ?",
+            "ans": "a",
+            "optionA": "World Wide Web",
+            "optionB": "World Wide Word",
+            "optionC": "World Wide Wood",
+            "optionD": "None of these"
+      },
+      "104": {
+            "question": "Which is the slowest Internet connection service?",
+            "ans": "b",
+            "optionA": "Land line",
+            "optionB": "Dial up service",
+            "optionC": "Digital subscriber line",
+            "optionD": "None of these"
+      },
+      "105": {
+            "question": "The code for a web page is written using -------",
+            "ans": "d",
+            "optionA": "Perl",
+            "optionB": "Winzip",
+            "optionC": "URL",
+            "optionD": "Hypertext markup language"
+      },
+      "106": {
+            "question": "Which PowerPoint view works best for adding slide transitions?",
+            "ans": "A",
+            "optionA": "Slide show view",
+            "optionB": "Slide sorter view",
+            "optionC": "Slide view",
+            "optionD": "Notes view"
+      },
+      "107": {
+            "question": "The maximum zoom percentage in Microsoft PowerPoint is",
+            "ans": "c",
+            "optionA": 1,
+            "optionB": 2,
+            "optionC": 4,
+            "optionD": 5
+      },
+      "108": {
+            "question": "Which of the following are types of sound files?",
+            "ans": "C",
+            "optionA": "LOG files",
+            "optionB": "DAT files",
+            "optionC": "WAV files",
+            "optionD": "DRV files"
+      },
+      "109": {
+            "question": "To return the remainder after a number is divided by a divisor in EXCEL we use the fun",
+            "ans": "C",
+            "optionA": "ROUND( )",
+            "optionB": "FACT( )",
+            "optionC": "MOD( )",
+            "optionD": "DIV( )"
+      },
+      "110": {
+            "question": "Which of the following is not valid version of MS Office?",
+            "ans": "A",
+            "optionA": "Ms-Office 2013",
+            "optionB": "Ms-office Vista",
+            "optionC": "Ms Office XP",
+            "optionD": "None"
+      },
+      "111": {
+            "question": "What is the purpose of inserting header and footer in document?",
+            "ans": "B",
+            "optionA": "To enhance the overall appearance of the document",
+            "optionB": "To mark the starting and ending of page",
+            "optionC": "To make large document more readable",
+            "optionD": "To allow page headers and footers appear on document when printed"
+      },
+      "112": {
+            "question": "In Word, the mailing list is known as the ____________.",
+            "ans": "c",
+            "optionA": "Data sheet",
+            "optionB": "Source",
+            "optionC": "Data source",
+            "optionD": "Sheet"
+      },
+      "113": {
+            "question": "Except for the \u2026\u2026 function, a formula with a logical function shows the word \u201cTRUE\u201d or \u201cFALSE\u201d as a result",
+            "ans": "A",
+            "optionA": "IF",
+            "optionB": "AND",
+            "optionC": "OR",
+            "optionD": "NOT"
+      },
+      "114": {
+            "question": "How are data organized in a spreadsheet?",
+            "ans": "C",
+            "optionA": "Lines and spaces",
+            "optionB": "Layers and planes",
+            "optionC": "Rows and columns",
+            "optionD": "Height and width"
+      },
+      "115": {
+            "question": "Which of the following is a correct format of Email address?",
+            "ans": "B",
+            "optionA": "name@website@info",
+            "optionB": "name@website.info",
+            "optionC": "www.nameofebsite.com",
+            "optionD": "name.website.com"
+      },
+      "116": {
+            "question": "To convert ''H2O'' into H2O'' which effect is used",
+            "ans": "B",
+            "optionA": "Small caps",
+            "optionB": "Subscript",
+            "optionC": "Superscript",
+            "optionD": "Lower"
+      },
+      "117": {
+            "question": "Which is the shortcut key to replace the text",
+            "ans": "B",
+            "optionA": "Ctrl+R",
+            "optionB": "Ctrl+H",
+            "optionC": "Ctrl+D ",
+            "optionD": "Ctel+E"
+      },
+      "118": {
+            "question": "Which shortcut key is used to redo action",
+            "ans": "B",
+            "optionA": "Ctrl+R",
+            "optionB": "Ctrl+Y",
+            "optionC": "Ctrl+E",
+            "optionD": "Ctrl+U "
+      },
+      "119": {
+            "question": "Which shortcut key is used to convert text into capital letters",
+            "ans": "A",
+            "optionA": "CtRl+Shift+A",
+            "optionB": "Ctrl+P",
+            "optionC": "Ctrl+A",
+            "optionD": "none"
+      },
+      "120": {
+            "question": "Text that justified is",
+            "ans": "A",
+            "optionA": "Adjust to meet both margin",
+            "optionB": "Carefully edit",
+            "optionC": "Centered",
+            "optionD": "Bold"
+      },
+      "121": {
+            "question": "The word thesaurus supports",
+            "ans": "C",
+            "optionA": "Synonymus ",
+            "optionB": "Antonymus",
+            "optionC": "Both a and b",
+            "optionD": "None of the above"
+      },
+      "122": {
+            "question": "While editing the document ctrl+\" would the insertion point",
+            "ans": "B",
+            "optionA": "End of the line",
+            "optionB": "One word right",
+            "optionC": "One lone right ",
+            "optionD": "New page"
+      },
+      "123": {
+            "question": "Using MS - word a document file can not be saved as",
+            "ans": "C",
+            "optionA": "Text file",
+            "optionB": "HTML file",
+            "optionC": "Pagemaker file ",
+            "optionD": "None of the above"
+      },
+      "124": {
+            "question": "In MS-WORD to appear full form abbrevition automatically we can use ",
+            "ans": "B",
+            "optionA": "auto text",
+            "optionB": "auto correct",
+            "optionC": "comments",
+            "optionD": "drop cap"
+      },
+      "125": {
+            "question": "To convert ''NICT Computer'' into the computer which option is used",
+            "ans": "B",
+            "optionA": "Tital case",
+            "optionB": "Toggle case",
+            "optionC": "Upper case",
+            "optionD": "All caps"
+      },
+      "126": {
+            "question": "Cut Shortcut Key Is",
+            "ans": "B",
+            "optionA": "Ctrl + C",
+            "optionB": "Ctrl + X",
+            "optionC": "Alt + V",
+            "optionD": "Alt + X"
+      },
+      "127": {
+            "question": "Copy Shortcut Key is ",
+            "ans": "A",
+            "optionA": "Ctrl + C",
+            "optionB": "Ctrl + X",
+            "optionC": "Alt + V",
+            "optionD": "Alt + X"
+      },
+      "128": {
+            "question": "Paste Shortcut is  ",
+            "ans": "B",
+            "optionA": "Ctrl + C",
+            "optionB": "Ctrl + V",
+            "optionC": "Alt + V",
+            "optionD": "Alt + X"
+      },
+      "129": {
+            "question": "Undo Shortcut is  ",
+            "ans": "A",
+            "optionA": "Ctrl + Z",
+            "optionB": "Ctrl + V",
+            "optionC": "Alt + V",
+            "optionD": "Alt + X"
+      },
+      "130": {
+            "question": "Create a New file Shortcut is  ",
+            "ans": "B",
+            "optionA": "Ctrl + O",
+            "optionB": "Ctrl + N",
+            "optionC": "Alt + N",
+            "optionD": "Alt + S"
+      },
+      "131": {
+            "question": "Open file Shortcut is  ",
+            "ans": "A",
+            "optionA": "Ctrl + O",
+            "optionB": "Ctrl + N",
+            "optionC": "Alt + Z",
+            "optionD": "Alt + S"
+      },
+      "132": {
+            "question": "Save file Shortcut is  ",
+            "ans": "A",
+            "optionA": "Ctrl + S",
+            "optionB": "Ctrl + N",
+            "optionC": "Alt + N",
+            "optionD": "Alt + R"
+      },
+      "133": {
+            "question": "Print file Shortcut is  ",
+            "ans": "A",
+            "optionA": "Ctrl + P",
+            "optionB": "Ctrl + O",
+            "optionC": "Alt + Y",
+            "optionD": "Alt + S"
+      },
+      "134": {
+            "question": "Which is the shortcut key to replace the text",
+            "ans": "B",
+            "optionA": "Ctrl+R",
+            "optionB": "Ctrl+H",
+            "optionC": "Ctrl+D ",
+            "optionD": "Ctel+E"
+      },
+      "135": {
+            "question": "Which shortcut key is used to redo action",
+            "ans": "B",
+            "optionA": "Ctrl+R",
+            "optionB": "Ctrl+Y",
+            "optionC": "Ctrl+E",
+            "optionD": "Ctrl+U "
+      },
+      "136": {
+            "question": "Which shortcut key is used to convert text into capital letters",
+            "ans": "A",
+            "optionA": "Ctrl+Shift+A",
+            "optionB": "Ctrl+P",
+            "optionC": "Ctrl+A",
+            "optionD": "none"
+      },
+      "137": {
+            "question": "Which is the shortcut key for Bold",
+            "ans": "A",
+            "optionA": "Ctrl+ B",
+            "optionB": "Ctrl+Y",
+            "optionC": "Ctrl+E",
+            "optionD": "Ctrl+U "
+      },
+      "138": {
+            "question": "Which is the shortcut key for Under line",
+            "ans": "A",
+            "optionA": "Ctrl+ U",
+            "optionB": "Ctrl+Y",
+            "optionC": "Ctrl+E",
+            "optionD": "Ctrl+ Z"
+      },
+      "139": {
+            "question": "Which is the shortcut key for Italic",
+            "ans": "A",
+            "optionA": "Ctrl+ I",
+            "optionB": "Ctrl+Y",
+            "optionC": "Ctrl+E",
+            "optionD": "Ctrl+U "
+      },
+      "140": {
+            "question": "Which is the shortcut key for Align Left Margin",
+            "ans": "B",
+            "optionA": "Ctrl + M",
+            "optionB": "Ctrl + L",
+            "optionC": "Ctrl + R",
+            "optionD": "Ctrl + N"
+      },
+      "141": {
+            "question": "Which is the shortcut key for Align Right Margin ",
+            "ans": "C",
+            "optionA": "Ctrl + F",
+            "optionB": "Ctrl + L",
+            "optionC": "Ctrl + R",
+            "optionD": "Ctrl + N"
+      },
+      "142": {
+            "question": "Which is the shortcut key for Align Center Margin",
+            "ans": "A",
+            "optionA": "Ctrl + E",
+            "optionB": "Ctrl + L",
+            "optionC": "Ctrl + R",
+            "optionD": "Ctrl + N"
+      },
+      "143": {
+            "question": "Which is the shortcut key for Increase Font Size",
+            "ans": "B",
+            "optionA": "Ctrl + alt + >",
+            "optionB": "Ctrl + Shift + >",
+            "optionC": "Ctrl + Shift + S",
+            "optionD": "None"
+      },
+      "144": {
+            "question": "Which is the shortcut key for Decrease Font Size",
+            "ans": "A",
+            "optionA": "Ctrl + Shift + <",
+            "optionB": "Ctrl + alt + >",
+            "optionC": "Ctrl + Shift + >",
+            "optionD": "None"
+      },
+      "145": {
+            "question": "Inter Section Between Row & Column is Call",
+            "ans": "A",
+            "optionA": "Cell",
+            "optionB": "Cell Address",
+            "optionC": "Row ",
+            "optionD": "Column"
+      },
+      "146": {
+            "question": "Extension of Word File",
+            "ans": "D",
+            "optionA": ".Doc",
+            "optionB": ".Docx",
+            "optionC": ".Wrd",
+            "optionD": "A and B"
+      },
+      "147": {
+            "question": "Extention of Excel File",
+            "ans": "A",
+            "optionA": ".Xls",
+            "optionB": ".Exl",
+            "optionC": ".Lxs",
+            "optionD": "None"
+      },
+      "148": {
+            "question": "Which is the shortcut key for Find",
+            "ans": "A",
+            "optionA": "Ctrl + F",
+            "optionB": "Ctrl + Shift + >",
+            "optionC": "Ctrl + R",
+            "optionD": "None"
+      },
+      "149": {
+            "question": "Which is the shortcut key for Rpleace",
+            "ans": "B",
+            "optionA": "Ctrl +O",
+            "optionB": "Ctrl + H",
+            "optionC": "Ctrl + V",
+            "optionD": "None"
+      },
+      "150": {
+            "question": "The program is known as _________ which interacts with the inner part of called kernel.",
+            "ans": "A",
+            "optionA": "Compiler",
+            "optionB": "Device Driver",
+            "optionC": "Protocol",
+            "optionD": "Shell"
+      },
+      "151": {
+            "question": "By default information stored in a header or footer print",
+            "ans": "C",
+            "optionA": "On just first page",
+            "optionB": "On just last page",
+            "optionC": "On every page",
+            "optionD": "None of the above"
+      }
+}
