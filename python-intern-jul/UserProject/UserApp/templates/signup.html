@@ -1,0 +1,25 @@
+
+{% extends 'base.html' %}
+{% load widget_tweaks %}
+
+{% block content %}
+<style>
+    .code{
+        width:400px;
+        margin:100px;
+    }
+</style>
+    <form class="code"method="post">
+        {% csrf_token %}
+            {% for f in userForm %}
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">{{f.field.label}}</label>
+                <span>{{f.e}}</span>
+                
+            {% render_field f class+="form-control" %}
+                
+              </div>
+            {% endfor %}
+            <button class="btn" type="submit">Save</button>
+    </form>
+{% endblock content %}
