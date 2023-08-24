@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% load widget_tweaks %}
+
+{% block content %}
+  <style>
+    #sign {
+      width: 350px;
+      margin: 100px;
+    }
+  </style> 
+  <form method="POST" id="sign">
+    {% csrf_token %}  
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Email/ID</label>
+      <input class="form-control" name="username"/>
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">password</label>
+      <input class="form-control" name="password"/>
+    </div>
+
+    <button type="submit" class="btn">submit</button>
+  </form>
+{% endblock %}

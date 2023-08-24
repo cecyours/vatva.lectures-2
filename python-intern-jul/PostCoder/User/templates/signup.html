@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% load widget_tweaks %}
+
+{% block content %}
+  <style>
+    #sign {
+      width: 350px;
+      margin: 100px;
+    }
+  </style>
+  <form   id="sign" method="post">
+    {% csrf_token %}
+    {% for i in userForm %}
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">{{ i.field.label }}</label>
+
+        {% render_field i   class+='form-control' %}
+      </div>
+    {% endfor %}
+      <button class="btn"> SUBMIT</button>
+  </form>
+{% endblock %}
