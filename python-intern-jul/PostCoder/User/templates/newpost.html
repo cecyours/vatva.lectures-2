@@ -2,7 +2,7 @@
 {% load widget_tweaks %}
 
 {% block content %}
-  <style>
+<style>
     #sign {
       width: 350px;
       margin: 100px;
@@ -10,7 +10,7 @@
   </style>
   <form   id="sign" method="post">
     {% csrf_token %}
-    {% for i in userForm %}
+    {% for i in post_form %}
       <div class="mb-3">
         <label for="exampleInputEmail1" class="form-label">{{ i.field.label }}</label>
 
@@ -19,4 +19,4 @@
     {% endfor %}
       <button class="btn"> SUBMIT</button>
   </form>
-{% endblock %}
+{%endblock%}
