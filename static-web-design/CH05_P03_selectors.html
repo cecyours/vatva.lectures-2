@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        
+        /* universal */
+        *{
+            color:aqua;
+            padding: 10px;
+        }
+
+        /* tag */
+        p{
+            color:red;
+        }
+
+        /* group */
+        h1,div{
+
+            background: blue;
+            text-shadow: 1px 1px black;
+        }
+
+        /* class */
+        .node{
+            
+            background: linear-gradient(to right, rgb(0, 0, 0) 20%, transparent 80%);
+            border-radius: 10px;
+            margin: 10px;
+        }
+
+        /* child */
+        .you > .node{
+            background: #eff009;
+        }
+
+        /* tag#id */
+
+        /* tag.class */
+
+        div > #me{
+            background: red;
+        }
+
+        span{
+            /* normal : keyword */
+            /* color:red;  */
+
+            /* hex */
+            /* color:#e33477; */
+
+            /* rgb */
+            color:rgb(200,255,0);
+        }
+        
+    </style>
+</head>
+<body>
+    <span>kites are awesome..</span>
+
+    <h1>Kites</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum omnis nemo repudiandae voluptatum sed iure ab ut. Sit, modi ipsam!</p>
+
+    <div class="node">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam voluptatem ullam illum harum vero, totam incidunt magnam, sit ratione dolorum ea! Quae doloremque eum dolores vitae aut dolore unde praesentium dolorum laborum, natus laudantium quam accusantium ad saepe. Quae quo ipsum eum vel?
+    </div>
+
+    <div class="you">
+        <h3 class="node">
+            hii
+        </h3>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores animi vel consequuntur magni quaerat laborum molestiae iusto. Consequuntur repellendus atque accusamus omnis voluptatum dolorum, ex asperiores praesentium, dolor sunt mollitia.
+    </div>
+</body>
+</html>
