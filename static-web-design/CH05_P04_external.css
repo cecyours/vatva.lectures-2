@@ -1,0 +1,14 @@
+h1{
+    color:red;
+    background: blanchedalmond;
+    /* text-shadow: 2px 2px rgb(246, 0, 0); */
+    filter: drop-shadow(2px 2px 2px rgb(255, 0, 0));
+    padding: 10px;
+}
+
+.demo{
+    color: aqua;
+}
+h1{
+    color:blue;
+}
