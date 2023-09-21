@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        div{
+            background: red;
+            width: 100px;
+            height: 100px;
+            animation-name: rupeshAnimation;
+            animation-duration: 0.00005s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            position: absolute;
+            left: 50%;
+            top:50%;
+            transform: translate(-50%,-50%);
+        }
+
+        h1{
+            position: absolute;
+            left: 50%;
+            top:50%;
+            transform: translate(-50%,-95%);
+        }
+
+        @keyframes rupeshAnimation {
+            from{
+                background-color: blue;
+                border-radius: 1px;
+                width: 400px;
+                color:white;
+                border-bottom-left-radius: 100px;
+                border-top-right-radius: 100px;
+                
+            }
+            to{
+                background-color: rgb(255, 255, 255);
+                border-radius: 50%;
+                color:white;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>
+       <h1>Kites</h1> 
+    </div>
+</body>
+</html>
