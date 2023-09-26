@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Done</title>
+
+    <style>
+      .box {
+        background: red;
+        height: 100px;
+        width: 100px;
+        margin: 10px;
+        position: relative;
+        animation-name: kites;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+
+      }
+
+      #box3{
+        animation-timing-function: ease-in;
+      }
+
+
+      #box2{
+        animation-timing-function: ease-in-out;
+      }
+
+      #box1{
+        animation-timing-function: ease-out;
+      }
+      @keyframes kites {
+        from{left:-190px}
+        to{left:100%;background: white;scale: 0;}
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div class="box" id="box1"></div>
+    <div class="box" id="box2"></div>
+    <div class="box" id="box3"></div>
+    <div class="box" id="box4"></div>
+  </body>
+</html>
