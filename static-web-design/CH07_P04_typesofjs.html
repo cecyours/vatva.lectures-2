@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+        <p id="internaljs" onclick="internalJsFunction()"> click</p>
+        <p id="externaljs" onclick="externalJsFunction()"> click</p>
+</body>
+
+<!-- internal js -->
+<script>
+    function internalJsFunction()
+    {
+        var internaljs = document.getElementById("internaljs");
+
+        internaljs.innerHTML = "Hello Internal"
+    }
+</script>
+<!-- external -->
+<script src="./CH07_P04_external.js"></script>
+</html>
