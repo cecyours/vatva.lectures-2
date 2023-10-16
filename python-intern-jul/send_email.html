@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+const { google } = require('googleapis');
+const readline = require('readline');
+
+// Create an OAuth2 client
+const oauth2Client = new google.auth.OAuth2(
+  '382674100913-7ckh77o29sn16vcbeiope425oc91nu8h.apps.googleusercontent.com',
+  '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',
+  'https://www.cecyours.org'
+);
+
+// Create an OAuth2 authentication URL
+const authUrl = oauth2Client.generateAuthUrl({
+  access_type: 'offline',
+  scope: 'https://www.googleapis.com/auth/gmail.send', // Scopes needed for Gmail API
+});
+
+console.log('Authorize this app by visiting this URL:', authUrl);
+
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout,
+});
+
+// Prompt the user to enter the code from the authorization page
+rl.question('Enter the code from the authorization page here: ', (code) => {
+  rl.close();
+
+  // Exchange the code for an access token
+  oauth2Client.getToken(code, (err, tokens) => {
+    if (err) {
+      console.error('Error getting access token:', err);
+      return;
+    }
+
+    // Set the access token in the OAuth2 client
+    oauth2Client.setCredentials(tokens);
+
+    // Now you can use the access token to send emails or perform other actions
+    sendEmail();
+  });
+});
+
+// Function to send the email
+const sendEmail = () => {
+  const gmail = google.gmail('v1');
+
+  const emailData = {
+    to: 'cecyours@gmail.com',
+    subject: 'Test Email Subject',
+    message: 'Test email body.',
+  };
+
+  const email = `
+    To: ${emailData.to}\r\n
+    Subject: ${emailData.subject}\r\n\r\n
+    ${emailData.message}
+  `;
+
+  gmail.users.messages.send(
+    {
+      auth: oauth2Client,
+      userId: 'me',
+      requestBody: {
+        raw: Buffer.from(email).toString('base64'),
+      },
+    },
+    (error, response) => {
+      if (error) {
+        console.error('Error sending email:', error);
+      } else {
+        console.log('Email sent:', response.data);
+      }
+    }
+  );
+};
+
+    </script>
+</body>
+</html>
