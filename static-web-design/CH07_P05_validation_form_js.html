@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+  <body>
+    <form  class="m-5">
+      <div class="mb-3">
+        <input
+          type="text"
+          class="form-control"
+          id="userName"
+          placeholder="User Name"
+        />
+      </div>
+
+      <div class="mb-3">
+        <input
+          type="text"
+          class="form-control"
+          id="userEmail"
+          placeholder="User Email"
+        />
+      </div>
+
+      <div class="mb-3">
+        <input
+          type="text"
+          class="form-control"
+          id="userPassword"
+          placeholder="User Password"
+        />
+      </div>
+
+      <button type="button" class="btn-primary btn" onclick="valid()">
+        submit
+      </button>
+
+      <div id="msg"></div>
+    </form>
+
+    <script>
+      function valid() {
+        msg.innerHTML = "";
+        if (userName.value == "") {
+          msg.innerHTML += "<p>Please enter name.</p>";
+        }
+
+        if (userEmail.value == "") {
+          msg.innerHTML += "<p>Please enter Email.</p>";
+        }
+
+        if (userPassword.value == "") {
+          msg.innerHTML += "Please enter Password.";
+        }
+      }
+    </script>
+  </body>
+</html>
