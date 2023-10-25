@@ -4,14 +4,33 @@
 .navbar {
   background: var(--pr-choco);
 }
-.user-link{
-    float: right;color:var(--pr-choco);
+.user-link {
+  float: right;
+  color: var(--pr-choco);
 }
 .user-link:hover {
   color: rgb(0, 105, 190);
-  
-  filter: drop-shadow(2px 2px 10px rgb(0, 129, 235));
 
+  filter: drop-shadow(2px 2px 10px rgb(0, 129, 235));
+}
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #c0c0c0;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(61, 61, 61);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
 
 .nav-link {
@@ -43,4 +62,23 @@
   filter: drop-shadow(2px 2px 5px rgb(15, 15, 15));
   scale: 1.1;
   font-weight: 700;
+}
+.horizontal-wrap {
+  width: 100%;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.horizontal-wrap::-webkit-scrollbar {
+  display: none;
+}
+.const {
+  margin: 50px;
+  margin-left: 150px;
+  filter: drop-shadow(10px 10px 10px black);
+  background-color: rgb(255, 255, 255);
+  width: 300px;
+  height: 400px;
+  display: inline-block;
+  transition: all 2s;
+  /* scale: 0.0; */
 }
