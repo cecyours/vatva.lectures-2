@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            display: inline-block;
+
+            transition: all 1s;
+            margin: 40px;
+        }
+    </style>
+  </head>
+  <body>
+
+    <h1>Hello World 1</h1>
+    <h1>Hello World 2</h1>
+    <h1>Hello World 3</h1>
+    <h1>Hello World 4</h1>
+    <h1>Hello World 5</h1>
+
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <!-- jquery cdn -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+            $(document).ready(function(){
+                
+                $("h1").click(function(){
+                    $(this).text("Hii Three..")
+                })
+
+                $("div").mouseenter(function(){
+
+                    $(this).css("border-radius","50%")
+                    $(this).css({"filter":"drop-shadow(5px 5px 5px black)","background":"white","scale":"1.5"})
+
+                })
+
+                $("div").mouseleave(function(){
+                    $(this).css("border-radius","1%")
+                    $(this).css({"filter":"drop-shadow(1px 1px 1px black)","background":"red","scale":"1"})
+
+
+                })
+            })
+    </script>
+  </body>
+</html>
