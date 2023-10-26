@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/style.css" />
+
+    <style>
+      .btn {
+        background: blue;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="m-5">
+      <button class="btn show">Show</button>
+
+      <button class="btn hide">Hide</button>
+
+      <div class="fs-2 p-5 content">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum
+        reprehenderit nam, doloremque beatae magni temporibus consequuntur
+        sapiente mollitia excepturi voluptate provident voluptatibus dignissimos
+        qui aspernatur sunt nesciunt, distinctio omnis adipisci.
+      </div>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+
+        $("button").click(function () {
+          $("button").css("background", "blue");
+          $(this).css("background", "red");
+        });
+
+        $(".show").click(function () {
+          $(".content").show();
+        });
+
+        $(".hide").click(function () {
+          $(".content").hide();
+        });
+      });
+    </script>
+  </body>
+</html>
