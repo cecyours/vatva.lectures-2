@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+  <body>
+    <section class="m-5">
+      <h1>Hello World</h1>
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, quidem
+        harum qui non magni sequi? A, obcaecati cumque culpa laborum sapiente
+        nostrum! Blanditiis ea mollitia natus corrupti, dolore in eum! Enim
+        expedita nulla, reiciendis perferendis, dolore officia aspernatur, fugit
+        vitae voluptas nam quas odio! Nihil placeat, velit fuga sequi voluptates
+        distinctio, nesciunt accusamus praesentium laudantium temporibus aut.
+        Esse ipsa enim corrupti possimus ad veritatis, dolorem vitae quis
+        tempore eligendi totam nobis optio sequi, fugiat mollitia. Nihil nostrum
+        earum quam modi aliquid nam voluptatem, reiciendis alias iusto numquam
+        recusandae quidem beatae animi quaerat! Nisi delectus aliquid est
+        doloremque nostrum. Laudantium, ea.
+      </p>
+    </section>
+
+    <script src="./src/min-jquery.js"></script>
+    <script>
+      //   jquery
+      $(document).ready(function () {
+        $("h1").click(function () {
+          alert("Hello H1 Selector");
+        });
+
+        $("p").mouseenter(function () {
+          $(this).css("color", "red");
+        });
+
+        $("p").mouseleave(function () {
+          $(this).css("color", "black");
+        });
+      });
+    </script>
+  </body>
+</html>

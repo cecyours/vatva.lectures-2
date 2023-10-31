@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+  <body>
+    <button id="btnJs">Java Script</button>
+    <button id="btnJq">JQuery</button>
+
+    <script src="./src/min-jquery.js"></script>
+    <script>
+      // java Script : js
+      var doc = document.getElementById("btnJs");
+
+      doc.onclick = function () {
+        alert("js : JavaScript");
+      };
+
+      
+      //   jquery
+      $(document).ready(function () {
+        $("#btnJq").click(function () {
+          alert("Pankaj");
+        });
+      });
+    </script>
+  </body>
+</html>
