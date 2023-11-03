@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/css/bootstrap.min.css" />
+    <style>
+      #box {
+        width: 100px;
+        height: 1px;
+        /* background-color: aliceblue; */
+        /* border: 1px red solid; */
+      }
+      .box {
+        width: 100px;
+        height: 100px;
+        background: red;
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="m-5">
+      <div class="row">
+        <div class="col-md-3">
+          <button class="btn btn-primary" id="btnAnimate">animate</button>
+          <div id="box" class="mt-3"></div>
+        </div>
+        <div class="col-md-3">
+          <button class="btn btn-primary" id="btnFadeIn">Fade In</button>
+          <button class="btn btn-primary" id="btnFadeOut">Fade out</button>
+          <div id="fade" style="display: none;" class="box">
+            lorem
+        </div>
+        </div>
+
+        
+      </div>
+    </section>
+    <script src="./src/js/jquery.min.js"></script>
+    <script src="./src/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/color/jquery.color-2.1.2.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        
+        
+        $("#btnFadeOut").click(function(){
+            $("#fade").fadeOut(1000)
+        })
+
+
+        $("#btnFadeIn").click(function () {
+          $("#fade").fadeIn(1000);
+        });
+
+
+        $("#btnAnimate").click(function () {
+          $("#box").animate(
+            {
+              height: "200px",
+              backgroundColor: "blue",
+            },
+            1000
+          );
+        });
+      });
+    </script>
+  </body>
+</html>
