@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      #card {
+        background-color: black;
+        border-top-right-radius: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <canvas id="card" width="900px" height="500px"></canvas>
+    </div>
+
+    <script>
+      var can = document.getElementById("card");
+
+      var canvasObject = can.getContext("2d");
+      canvasObject.strokeStyle = "white";
+      canvasObject.fillStyle = "white";
+      // canvasObject.moveTo(10,10)
+      // canvasObject.lineTo(50,100)
+
+      // canvasObject.moveTo(50,100)
+      // canvasObject.lineTo(100,10)
+
+      canvasObject.fillRect(10, 250, 100, 300);
+      canvasObject.fillRect(80, 240, 10, 10);
+      canvasObject.fillRect(50, 235, 20, 20);
+
+      canvasObject.beginPath();
+      canvasObject.strokeStyle = "black";
+
+      canvasObject.arc(205, 100, 40, 0, 2 * Math.PI);
+      canvasObject.fill();
+      canvasObject.fillStyle = "black";
+
+      canvasObject.beginPath();
+      canvasObject.arc(190, 80, 40, 0, 2 * Math.PI);
+      canvasObject.fill();
+      canvasObject.fillStyle = "black";
+      canvasObject.stroke();
+
+      canvasObject.strokeStyle = "black";
+
+      var window_width = 18;
+      var window_height = 20;
+
+      for (var i = 0; i < 9; i++) {
+        canvasObject.fillRect(20, 260 + 25 * i, window_width, window_height);
+
+        canvasObject.fillRect(57, 260 + 25 * i, 1, window_height);
+
+        canvasObject.fillRect(80, 260 + 25 * i, window_width, window_height);
+      }
+
+      canvasObject.stroke();
+
+      function getStar(x) {
+        width = x * 10;
+        y = width;
+        canvasObject.strokeStyle = "red";
+        canvasObject.beginPath();
+        canvasObject.moveTo(x, y); //d1
+        canvasObject.lineTo(x + width, y); //d2
+        canvasObject.lineTo((x + width) / 4, y + y / 2); //d3
+        canvasObject.lineTo((x + width) / 2, y / 2); //d4
+        canvasObject.lineTo((x + width) / 2 + (x + width) / 4, y + y / 2); //d5
+        canvasObject.lineTo(x, y); //d6
+        canvasObject.fillStyle = "white";
+        canvasObject.fill();
+      }
+      getStar(3);
+      getStar(2);
+      getStar(4);
+      getStar(6);
+      getStar(8);
+      getStar(10);
+    </script>
+  </body>
+</html>
