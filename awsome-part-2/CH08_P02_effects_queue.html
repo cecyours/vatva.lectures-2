@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/css/bootstrap.min.css" />
+    <style>
+      .box {
+        background: red;
+        width: 100px;
+        height: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="m-5">
+      <button class="btn btn-primary mb-3">Show Queue</button>
+      <div class="box"></div>
+    </section>
+    <script src="./src/js/jquery.min.js"></script>
+    <script src="./src/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/color/jquery.color-2.1.2.min.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        var box = $(".box");
+
+        box.click(function () {
+          console.log("i clicked");
+        });
+        box.animate(
+          {
+            width: "400px",
+          },
+          2000
+        );
+        console.log(box.queue().length);
+        // box.dequeue()
+        box.animate(
+          {
+            backgroundColor: "black",
+          },
+          4000
+        );
+
+        box.clearQueue();
+        box.animate({
+            width:"300px"
+        },1000);
+
+        box.animate({
+            height:"300px"
+        },1000);
+
+        box.animate({
+            width:"10px"
+        },1000);
+
+        box.animate({
+            height:"450px"
+        },1000);
+        box.animate({
+            height:"10px"
+        },1000);
+
+        console.log(box.queue().length);
+      });
+    </script>
+  </body>
+</html>
