@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/style.css" />
+    <style>
+        .form-control{
+            margin-bottom: 10px;
+        }
+    </style>
+  </head>
+  <body>
+    <section class="m-5">
+            <form id="myForm">
+                <input type="text" id="UserName" class="form-control" placeholder="User Name">
+                <input type="text" id="UserEmail" class="form-control" placeholder="User Email">
+                <input type="text" id="UserPass" class="form-control" placeholder="User Password">
+                <select id="states" class="form-select">
+                    <option value="Gujarat">Gujarat</option>
+                    <option value="MP">MP</option>
+                    <option value="UP">UP</option>
+                </select>
+                <button class="btn m-3 btn-primary">Submit</button>
+            </form>
+    </section>
+    <script src="./src/min-jquery.js"></script>
+    <script>
+      $(document).ready(function () {
+
+        $("input").focus(function(){
+            console.log("you Entered...."+$(this).attr("id"))
+            $(this).css("background","red")
+        })
+
+        $("input").focusout(function(){
+            $(this).css("background","white")
+        })
+
+        $("#states").change(function(){
+            console.log("you selected "+$(this).val())
+        })
+      });
+    </script>
+  </body>
+</html>
