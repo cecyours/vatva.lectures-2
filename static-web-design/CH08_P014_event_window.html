@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/style.css" />
+    <style></style>
+  </head>
+  <body>
+    <section
+      class="m-5"
+      id="section"
+      style="min-height: 100vh; width: 100%"
+    ></section>
+    <script src="./src/min-jquery.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(window).on("load", function () {
+            
+          $("#section").css({"background": "red","border-radius":"0%"});
+
+            
+        });
+        $(window).on("scroll", function () {
+            
+          $("#section").css({"background": "yellow","border-radius":"10%"});
+
+        });
+
+        $(window).on("resize", function () {
+          $("#section").css({"background": "black","border-radius":"50%"});
+        });
+
+
+        $(window).on("unload", function () {
+            alert("i am exit")
+          $("#section").css({"background": "pink","border-radius":"50%"});
+        });
+
+      });
+    </script>
+  </body>
+</html>
