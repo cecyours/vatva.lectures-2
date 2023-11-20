@@ -1,0 +1,81 @@
+<!-- 
+
+    server side : need a server : php, node
+
+    client side : js, jquery
+
+    language : CSS  vs framework : bootstrap -> ease to code 
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="./src/min.css" />
+
+    <style>
+      .error {
+        float: right;
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="m-5 shadow p-5">
+      <form action="" id="contactForm">
+        <h1 class="text-center">Contact Us</h1>
+        <div class="mb-3">
+          <span id="emailError" class="error"></span>
+          <input
+            type="text"
+            id="email"
+            class="form-control"
+            placeholder="email"
+          />
+        </div>
+
+        <div class="mb-3">
+          <span id="remarkError" class="error"></span>
+          <input
+            type="text"
+            id="remark"
+            class="form-control"
+            placeholder="remark"
+          />
+        </div>
+        <div class="mb-3 text-center">
+          <button class="btn btn-primary">Submit</button>
+        </div>
+      </form>
+    </section>
+  </body>
+  <script src="./src/min.js"></script>
+  <script>
+    jQuery(document).ready(function () {
+
+    $(".form-control").focus(function(){
+        $(this).css("border","1px green solid");
+        var id = $(this).attr("id");
+        $("#"+id+"Error").text("")
+    })
+        
+
+      $("#contactForm").submit(function (event) {
+        event.preventDefault();
+        
+        if($("#email").val()=="")
+        {
+            $("#email").css("border","red 1px solid");
+            $("#emailError").text("Please Enter email");
+        }
+        if($("#remark").val()=="")
+        {
+            $("#remark").css("border","red 1px solid");
+            $("#remarkError").text("Please Enter remark");
+        }
+      });
+    });
+  </script>
+</html>
