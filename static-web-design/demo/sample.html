@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+
+    <h1 id="sample"></h1>
+    <script>
+
+      function convertToIndianRupeesWords(number) {
+        var words = ["", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine"];
+        var tensWords = ["", "", "Twenty", "Thirty", "Forty", "Fifty", "Sixty", "Seventy", "Eighty", "Ninety"];
+        var teensWords = ["", "Eleven", "Twelve", "Thirteen", "Fourteen", "Fifteen", "Sixteen", "Seventeen", "Eighteen", "Nineteen"];
+
+        if (number === 0) {
+          return "Zero";
+        }
+
+        function convertLessThanThousand(num) {
+          if (num === 0) {
+            return "";
+          } else if (num < 10) {
+            return words[num];
+          } else if (num < 20) {
+            return teensWords[num - 10];
+          } else if (num < 100) {
+            return tensWords[Math.floor(num / 10)] + " " + convertLessThanThousand(num % 10);
+          } else {
+            return words[Math.floor(num / 100)] + " Hundred " + convertLessThanThousand(num % 100);
+          }
+        }
+
+        var crores = Math.floor(number / 10000000);
+        var lakhs = Math.floor((number % 10000000) / 100000);
+        var thousands = Math.floor((number % 100000) / 1000);
+        var remaining = number % 1000;
+
+        var result = "";
+
+        if (crores > 0) {
+          result += convertLessThanThousand(crores) + " Crore ";
+        }
+
+        if (lakhs > 0) {
+          result += convertLessThanThousand(lakhs) + " Lakh ";
+        }
+
+        if (thousands > 0) {
+          result += convertLessThanThousand(thousands) + " Thousand ";
+        }
+
+        if (remaining > 0) {
+          result += convertLessThanThousand(remaining);
+        }
+
+        return result.trim();
+      }
+
+      var x = convertToIndianRupeesWords(4481);
+      document.getElementById("sample").innerHTML = x;
+    </script>
+  </body>
+</html>
