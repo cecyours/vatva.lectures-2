@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/style.css" />
+    <style>
+      .row {
+        border: 2px red dashed;
+      }
+      .col {
+        border: 2px black dotted;
+        margin: 2px;
+        padding: 2px;
+      }
+
+      .box {
+        width: 150px;
+        height: 150px;
+        background: green;
+        border-radius: 50%;
+        text-align: center;
+        justify-content: center;
+        padding: 40px;
+        color: white;
+        font-size: 20px;
+      }
+      .box::after {
+        content: "i am king";
+      }
+    </style>
+  </head>
+  <body>
+    <section class="m-5">
+      <div class="row">
+        <div class="col">
+          <div class="box"></div>
+        </div>
+        <div class="col">
+          <div class="box"></div>
+        </div>
+        <div class="col">
+            <div class="box"></div>
+          </div>
+          <div class="col">
+            <div class="box"></div>
+          </div>
+          <div class="col">
+            <div class="box"></div>
+          </div>
+          <div class="col">
+            <div class="box"></div>
+          </div>
+          <div class="col">
+            <div class="box"></div>
+          </div>
+          <div class="col">
+            <div class="box"></div>
+          </div>
+           
+      </div>
+
+      <hr>
+      <div class="row">
+            <div class="col-md-5 bg-danger">
+                <div class="box"></div>
+            </div>
+            <div class="col-md-5 bg-primary">
+                <div class="box"></div>
+            </div>
+
+            <div class="col-md-2 bg-warning">
+                <div class="box"></div>
+            </div>
+            
+      </div>
+    </section>
+    <script src="./src/min-jquery.js"></script>
+    <script>
+      $(document).ready(function () {});
+    </script>
+  </body>
+</html>
