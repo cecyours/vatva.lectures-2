@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/style.css" />
+    <style>
+      .box {
+        width: 150px;
+        height: 150px;
+        background-color: red;
+      }
+
+      video{
+        width: 100px;
+      }
+      img {
+        filter: drop-shadow(5px 5px 5px red);
+      }
+
+      @media (min-width: 600px) {
+        .box {
+          background: blue;
+          width: 100%;
+        }
+      }
+      @media (max-width: 400px) {
+        .box {
+          border-radius: 50%;
+        }
+        img {
+          filter: drop-shadow(5px 5px 5px blue);
+        }
+        video{
+            width: 400px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <section class="m-5">
+      <div class="box"></div>
+
+      <img src="./resource/images/heli100.png" alt="" />
+
+      <video controls > 
+        <source src="./resource/images/pexels.mp4"  type="video/mp4">
+      </video>
+    </section>
+  </body>
+</html>
