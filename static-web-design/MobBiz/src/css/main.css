@@ -7,5 +7,30 @@
     padding: 10px;
     border: none;
     text-align: center;
+    transition: all 1s;
 
 }
+
+#searchInput:focus{
+    border: 1px white solid;
+    outline: 1px rgb(0, 68, 255) solid;
+    width: 70%;
+}
+
+#imgSider{
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 10px;
+    filter: drop-shadow(0px 5px 5px black);
+    /* width: 100%; */
+}
+
+#textSider{
+    border-bottom-right-radius: 50%;
+    /* filter: drop-shadow(0px 5px 5px black); */
+
+
+}
+
+ 
+
+ 
