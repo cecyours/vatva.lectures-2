@@ -1,36 +1,54 @@
+#searchInput {
+  width: 50%;
+  border-radius: 20px;
+  filter: drop-shadow(3px 3px 3px rgb(133, 133, 133));
+  padding: 10px;
+  border: none;
+  text-align: center;
+  transition: all 1s;
+}
 
+#searchInput:focus {
+  border: 1px white solid;
+  outline: 1px rgb(0, 68, 255) solid;
+  width: 70%;
+}
 
-#searchInput{
-    width: 50%;
+#imgSider {
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 10px;
+  filter: drop-shadow(0px 5px 5px black);
+  /* width: 100%; */
+}
+
+#textSider {
+  border-bottom-right-radius: 50%;
+  /* filter: drop-shadow(0px 5px 5px black); */
+}
+
+.cardholder {
+  position: relative;
+  transition: all 1s;
+}
+.cardholder:hover{
+    transform: scale(1.1);
+    filter: drop-shadow(5px 5px 5px black);
+    
+}
+.maincard:hover{
     border-radius: 20px;
-    filter: drop-shadow(3px 3px 3px rgb(133, 133, 133));
-    padding: 10px;
-    border: none;
-    text-align: center;
-    transition: all 1s;
-
+}
+.cardtag {
+  position: absolute;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: white;
 }
 
-#searchInput:focus{
-    border: 1px white solid;
-    outline: 1px rgb(0, 68, 255) solid;
-    width: 70%;
+.maincard {
+  width: 18rem;
+  height: 400px;
+  background-size: cover;
+  transition: all 1s;
+  
 }
-
-#imgSider{
-    border-top-left-radius: 50%;
-    border-bottom-left-radius: 10px;
-    filter: drop-shadow(0px 5px 5px black);
-    /* width: 100%; */
-}
-
-#textSider{
-    border-bottom-right-radius: 50%;
-    /* filter: drop-shadow(0px 5px 5px black); */
-
-
-}
-
- 
-
- 
