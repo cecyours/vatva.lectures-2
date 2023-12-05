@@ -52,3 +52,16 @@
   transition: all 1s;
   
 }
+
+.activeclick{
+  border-radius: 50px;
+  background: rgb(238, 5, 5);
+  filter: drop-shadow(5px 5px 5px rgb(0, 0, 0));
+  /* width: 200px; */
+  color: white !important;
+  width: 100px;
+}
+.btns{
+  border-radius: 50px;
+
+}
