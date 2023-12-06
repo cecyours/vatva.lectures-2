@@ -24,14 +24,14 @@ div.cust-container{
     text-align: right;
 }
 
-.navbar a{ 
+.navbar .nav-link{ 
     font-weight: 700;
     transition: all 0.5s;
     color: var(--pr-purple) !important;
 
 }
 
-.navbar a:hover{
+.navbar .nav-link:hover{
     border-left: 5px var(--pr-purple) solid;
     border-top-left-radius: 5px;
     /* padding: 5px; */
@@ -45,4 +45,14 @@ div.cust-container{
     font-weight: 800;
     color: var(--pr-purple);
     font-size: 30px;
+}
+
+.card-img-top{
+    width: 200px;
+    filter: drop-shadow(3px 3px 3px black);
+    transition: 0.5s;
+}
+
+.card-img-top:hover{
+    scale: 1.2;
 }
