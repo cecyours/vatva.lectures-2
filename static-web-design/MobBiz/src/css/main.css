@@ -83,3 +83,16 @@
   font-size: 24px;
   
 }
+
+.about-img{
+  width: 200px;
+  
+  border-radius: 50%;
+  filter: drop-shadow(5px 5px 5px rgb(4, 4, 4));
+}
+.about-name{
+  font-weight: 600;
+}
+.about-name::before{
+  content: "- ";
+}
