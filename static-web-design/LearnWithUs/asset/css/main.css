@@ -1,0 +1,39 @@
+body {
+  background: rgb(246, 246, 246);
+}
+
+.heading {
+  color: green;
+  border-bottom: 2px rgb(4, 22, 0) solid;
+}
+
+div {
+  /* border: 1px red dashed; */
+  padding: 3px;
+}
+
+.img-poster {
+  width: 100%;
+}
+
+.form-control {
+  background-color: rgb(246, 246, 246);
+}
+.form-control:focus {
+  background-color: rgb(246, 246, 246);
+  font-weight: 700;
+}
+
+.cust-bg {
+  background-color: #eef3ff;
+  color: rgb(0, 7, 17);
+  padding: 15px !important;
+  margin: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .cust-bg { 
+    padding: 5px !important;
+    margin: 2px;
+  }
+}
