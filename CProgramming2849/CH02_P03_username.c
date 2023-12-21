@@ -10,5 +10,6 @@ int main()
 
 
     printf("Welcome %s\n",name);
+    printf("i am not you..");
     return 0;
 }
