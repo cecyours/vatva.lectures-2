@@ -9,5 +9,5 @@ while n:
     file.write("hello World")
     file.close()
     os.system("gdone")
-    time.sleep(3)
+    time.sleep(10)
 
