@@ -2,7 +2,7 @@
 import os
 import random
 import time
-n = 100
+n = random.randint(100,120)
 while n:
     n-=1
     file = open("./data.txt","a+")
