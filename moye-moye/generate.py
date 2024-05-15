@@ -2,7 +2,7 @@
 import os
 import random
 import time
-n = random.randint(500,720)
+n = random.randint(300,420)
 while n:
     d = random.randint(1,5)
     n-=1
